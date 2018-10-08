@@ -2,6 +2,6 @@ var playlist={
   RHCP: "Aeroplane"
 }
 
-function updatePlaylist(pl, artist, song){
-  return Object.assign({}, pl, { [artist]: song })
+function updatePlaylist(playlist, artistName, songTitle){
+  return Object.assign({}, playlist, { artistName: songTitle })
 }
