@@ -41,6 +41,7 @@ describe('objects', () => {
         playlist['Slowdive'] = 'Alison'
         playlist['My Bloody Valentine'] = 'Sometimes'
       })
+
       removeFromPlaylist(playlist, 'Slowdive')
 
       expect(playlist).
